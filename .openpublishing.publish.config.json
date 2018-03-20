@@ -1,0 +1,44 @@
+{
+  "docsets_to_publish": [
+    {
+      "docset_name": "Advocates",
+      "build_source_folder": "Advocates",
+      "build_output_subfolder": "Advocates",
+      "locale": "mt-mt",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    }
+  ],
+  "notification_subscribers": [],
+  "branches_to_filter": [
+    "live-sxs",
+    "master-sxs"
+  ],
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": false,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft.mt-mt",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/MicrosoftDocs/Advocates",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }
+  ],
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": false,
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false
+}
